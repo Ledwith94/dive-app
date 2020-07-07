@@ -1,1 +1,0 @@
-curl -H "Content-Type: application/json" -X POST -d '{"firstName": "Test", "lastName": "Name", "birthDate": "1990-02-11", "email": "test@test.com", "Address": [{"AptNo": "14"}, {"City": "Citytown"}, {"Country": "Ireland"}, {"State": "ma"}, {"postCode": "00000000"}], "liabilityRead": true}'  "http://localhost:3000/sign-up"
